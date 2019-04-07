@@ -1,0 +1,53 @@
+{
+	"crafts": {
+		"name": "Crafts Room",
+		"reward": "Bridge Repair",
+		"bundles": [
+			"spring_foraging",
+			"summer_foraging",
+			"fall_foraging",
+			"winter_foraging",
+			"construction",
+			"excotic_foraging"
+		]
+	},
+	"pantry": {
+		"name": "Pantry",
+		"reward": "Greenhouse",
+		"bundles": [
+			"spring_crops",
+			"summer_crops",
+			"fall_crops",
+			"quality_crops",
+			"animal",
+			"artisan"
+		]
+	},
+	"fishtank": {
+		"name": "Fish Tank",
+		"reward": "Glitter Boulder Removed",
+		"bundles": [
+			"river_fish",
+			"lake_fish",
+			"ocean_fish",
+			"night_fish",
+			"crab_pot",
+			"specialty_fish"
+		]
+	},
+	"boiler": {
+		"name": "Boiler Room",
+		"reward": "Minecarts Repaired",
+		"bundles": ["blacksmith", "geologist", "adventurer"]
+	},
+	"bulletin": {
+		"name": "Bulletin Board",
+		"reward": "Friendship <3",
+		"bundles": ["chef", "dye", "field_research", "fodder", "enchanter"]
+	},
+	"vault": {
+		"name": "Vault",
+		"reward": "Bus Repair",
+		"bundles": ["vault_25", "vault_50", "vault_100", "vault_250"]
+	}
+}

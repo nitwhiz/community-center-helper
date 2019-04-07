@@ -1,0 +1,39 @@
+[
+	{
+		"item": "parsnip",
+		"quality": "gold"
+	},
+	{
+		"item": "melon",
+		"quality": "gold"
+	},
+	{
+		"item": "pumpkin",
+		"quality": "gold"
+	},
+	{
+		"item": "corn",
+		"quality": "gold"
+	},
+	{
+		"item": "aquamarine"
+	},
+	{
+		"item": "quartz"
+	},
+	{
+		"item": "earth_crystal"
+	},
+	{
+		"item": "frozen_tear"
+	},
+	{
+		"item": "fire_quartz"
+	},
+	{
+		"item": "frozen_geode"
+	},
+	{
+		"item": "hay"
+	}
+]

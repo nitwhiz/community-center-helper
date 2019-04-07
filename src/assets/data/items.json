@@ -1,0 +1,1236 @@
+{
+	"horseradish": {
+		"name": "Wild Horseradish",
+		"availability": [{ "type": "foraging", "season": "spring" }]
+	},
+	"daffodil": {
+		"name": "Daffodil",
+		"availability": [
+			{ "type": "foraging", "season": "spring" },
+			{ "type": "shop", "which": "pierre_flower_dance" }
+		]
+	},
+	"leek": {
+		"name": "Leek",
+		"availability": [{ "type": "foraging", "season": "spring" }]
+	},
+	"dandelion": {
+		"name": "Leek",
+		"availability": [
+			{ "type": "foraging", "season": "spring" },
+			{ "type": "shop", "which": "pierre_flower_dance" }
+		]
+	},
+	"spring_seeds": {
+		"name": "Spring Seeds"
+	},
+	"grape": {
+		"name": "Grape",
+		"availability": [
+			{ "type": "foraging", "season": "summer" },
+			{ "type": "farming", "season": "fall" }
+		]
+	},
+	"spice_berry": {
+		"name": "Spice Berry",
+		"availability": [
+			{ "type": "foraging", "season": "summer" },
+			{ "type": "farm_cave", "option": "fruit_bat" }
+		]
+	},
+	"sweet_pea": {
+		"name": "Sweet Pea",
+		"availability": [{ "type": "foraging", "season": "summer" }]
+	},
+	"summer_seeds": {
+		"name": "Summer Seeds"
+	},
+	"common_mushroom": {
+		"name": "Common Mushroom",
+		"availability": [
+			{ "type": "foraging", "season": "fall" },
+			{
+				"type": "foraging",
+				"where": "secret_woods",
+				"season": "spring"
+			},
+			{
+				"type": "foraging",
+				"where": "secret_woods",
+				"season": "fall"
+			},
+			{ "type": "farm_cave", "option": "mushroom" },
+			{ "type": "tapping", "tree": "mushroom" }
+		]
+	},
+	"wild_plum": {
+		"name": "Wild Plum",
+		"availability": [
+			{ "type": "foraging", "season": "fall" },
+			{ "type": "farm_cave", "option": "fruit_bat" }
+		]
+	},
+	"hazelnut": {
+		"name": "Hazelnut",
+		"availability": [{ "type": "foraging", "season": "fall" }]
+	},
+	"blackberry": {
+		"name": "Blackberry",
+		"availability": [
+			{ "type": "foraging", "season": "fall" },
+			{ "type": "farm_cave", "option": "fruit_bat" }
+		]
+	},
+	"fall_seeds": {
+		"name": "Fall Seeds"
+	},
+	"winter_root": {
+		"name": "Winter Root",
+		"availability": [
+			{ "type": "tilling_soil", "season": "winter" },
+			{ "type": "tilling_artifact", "season": "winter" },
+			{
+				"type": "drop",
+				"monster": "blue_slime",
+				"level": [41, 79],
+				"where": "mines"
+			}
+		]
+	},
+	"crystal_fruit": {
+		"name": "Crystal Fruit",
+		"availability": [
+			{ "type": "foraging", "season": "winter" },
+			{
+				"type": "drop",
+				"monster": "dust_sprite",
+				"level": [41, 79],
+				"where": "mines"
+			}
+		]
+	},
+	"snow_yam": {
+		"name": "Snow Yam",
+		"availability": [
+			{ "type": "tilling_soil", "season": "winter" },
+			{ "type": "tilling_artifact", "season": "winter" }
+		]
+	},
+	"crocus": {
+		"name": "Crocus",
+		"availability": [{ "type": "foraging", "season": "winter" }]
+	},
+	"winter_seeds": {
+		"name": "Winter Seeds"
+	},
+	"wood": {
+		"name": "Wood",
+		"availability": [{ "type": "chopping" }]
+	},
+	"stone": {
+		"name": "Stone",
+		"availability": [{ "type": "pickaxe" }]
+	},
+	"hardwood": {
+		"name": "Hardwood",
+		"availability": [{ "type": "chopping_large" }, { "type": "crates" }]
+	},
+	"charcoal_kiln": {
+		"name": "Charcoal Kiln"
+	},
+	"coconut": {
+		"name": "Coconut",
+		"availability": [{ "type": "foraging", "where": "desert" }]
+	},
+	"cactus_fruit": {
+		"name": "Cactus Fruit",
+		"availability": [{ "type": "foraging", "where": "desert" }]
+	},
+	"cave_carrot": {
+		"name": "Cave Carrot",
+		"availability": [
+			{ "type": "tilling_soil", "where": "mines" },
+			{ "type": "boxes" }
+		]
+	},
+	"red_mushroom": {
+		"name": "Red Mushroom",
+		"availability": [
+			{ "type": "foraging", "where": "mines" },
+			{
+				"type": "foraging",
+				"season": "summer",
+				"where": "secret_woods"
+			},
+			{
+				"type": "foraging",
+				"season": "fall",
+				"where": "secret_woods"
+			},
+			{ "type": "farm_cave", "option": "mushroom" },
+			{ "type": "tapping", "tree": "mushroom" },
+			{ "type": "map", "which": "forest_farm", "season": "fall" }
+		]
+	},
+	"purple_mushroom": {
+		"name": "Purple Mushroom",
+		"availability": [
+			{ "type": "mines" },
+			{ "type": "farm_cave", "option": "mushroom" },
+			{ "type": "map", "which": "forest_farm", "season": "fall" }
+		]
+	},
+	"maple_syrup": {
+		"name": "Maple Syrup",
+		"availability": [{ "type": "tapping", "tree": "maple" }]
+	},
+	"oak_resin": {
+		"name": "Oak Resin",
+		"availability": [{ "type": "tapping", "tree": "oak" }]
+	},
+	"pine_tar": {
+		"name": "Pine Tar",
+		"availability": [{ "type": "tapping", "tree": "pine" }]
+	},
+	"morel": {
+		"name": "Morel",
+		"availability": [
+			{ "type": "foraging", "where": "secret_woods" },
+			{ "type": "map", "where": "forest_farm", "season": "spring" },
+			{ "type": "farm_cave", "option": "mushroom" }
+		]
+	},
+	"autumns_bounty": {
+		"name": "Autumn's Bounty"
+	},
+	"parsnip": {
+		"name": "Parsnip",
+		"availability": [{ "type": "crops", "season": "spring" }]
+	},
+	"green_bean": {
+		"name": "Green Bean",
+		"availability": [{ "type": "crops", "season": "spring" }]
+	},
+	"cauliflower": {
+		"name": "Cauliflower",
+		"availability": [{ "type": "crops", "season": "spring" }]
+	},
+	"potato": {
+		"name": "Potato",
+		"availability": [{ "type": "crops", "season": "spring" }]
+	},
+	"speed_gro": {
+		"name": "Speed-Gro"
+	},
+	"tomato": {
+		"name": "Tomato",
+		"availability": [{ "type": "crops", "season": "summer" }]
+	},
+	"hot_pepper": {
+		"name": "Hot Pepper",
+		"availability": [{ "type": "crops", "season": "summer" }]
+	},
+	"blueberry": {
+		"name": "Blueberry",
+		"availability": [{ "type": "crops", "season": "summer" }]
+	},
+	"melon": {
+		"name": "Melon",
+		"availability": [{ "type": "crops", "season": "summer" }]
+	},
+	"quality_sprinkler": {
+		"name": "Quality Sprinkler"
+	},
+	"corn": {
+		"name": "Corn",
+		"availability": [
+			{ "type": "crops", "season": "summer" },
+			{ "type": "crops", "season": "fall" }
+		]
+	},
+	"eggplant": {
+		"name": "Eggplant",
+		"availability": [{ "type": "crops", "season": "fall" }]
+	},
+	"pumpkin": {
+		"name": "Pumpkin",
+		"availability": [{ "type": "crops", "season": "fall" }]
+	},
+	"yam": {
+		"name": "yam",
+		"availability": [{ "type": "crops", "season": "fall" }]
+	},
+	"bee_house": {
+		"name": "Bee House"
+	},
+	"preserves_jar": {
+		"name": "Preserves Jar"
+	},
+	"large_milk": {
+		"name": "Large Milk",
+		"availability": [{ "type": "animal", "which": "cow" }]
+	},
+	"large_egg_brown": {
+		"name": "Large Egg (Brown)",
+		"availability": [{ "type": "animal", "which": "chicken" }]
+	},
+	"large_egg": {
+		"name": "Large Egg",
+		"availability": [{ "type": "animal", "which": "chicken" }]
+	},
+	"large_goat_milk": {
+		"name": "Large Goat Milk",
+		"availability": [{ "type": "animal", "which": "goat" }]
+	},
+	"wool": {
+		"name": "Wool",
+		"availability": [
+			{ "type": "animal", "which": "sheep" },
+			{ "type": "animal", "which": "rabbit" }
+		]
+	},
+	"duck_egg": {
+		"name": "Duck Egg",
+		"availability": [{ "type": "animal", "which": "duck" }]
+	},
+	"cheese_press": {
+		"name": "Cheese Press"
+	},
+	"truffle_oil": {
+		"name": "Truffle Oil",
+		"availability": [
+			{ "type": "machine", "which": "oil_maker", "from": "truffle" }
+		]
+	},
+	"oil_maker": {
+		"name": "Oil Maker"
+	},
+	"cloth": {
+		"name": "Truffle Oil",
+		"availability": [
+			{ "type": "machine", "which": "loom", "from": "truffle" },
+			{
+				"type": "machine",
+				"which": "recycler",
+				"from": "soggy_newspaper"
+			}
+		]
+	},
+	"loom": {
+		"name": "Loom"
+	},
+	"recycler": {
+		"name": "Recycler"
+	},
+	"soggy_newspaper": {
+		"name": "Soggy Newspaper"
+	},
+	"goat_cheese": {
+		"name": "Goat Cheese",
+		"availability": [{ "type": "machine", "which": "cheese_press" }]
+	},
+	"cheese": {
+		"name": "Cheese",
+		"availability": [{ "type": "machine", "which": "cheese_press" }]
+	},
+	"honey": {
+		"name": "Honey",
+		"availability": [{ "type": "machine", "which": "bee_house" }]
+	},
+	"jelly": {
+		"name": "Jelly",
+		"availability": [{ "type": "machine", "which": "preserves_jar" }]
+	},
+	"apple": {
+		"name": "Apple",
+		"availability": [
+			{ "type": "tree", "which": "apple", "season": "fall" },
+			{ "type": "farm_cave", "option": "fruit_bat" }
+		]
+	},
+	"apricot": {
+		"name": "Apricot",
+		"availability": [
+			{ "type": "tree", "which": "apricot", "season": "spring" },
+			{ "type": "farm_cave", "option": "fruit_bat" }
+		]
+	},
+	"orange": {
+		"name": "Orange",
+		"availability": [
+			{ "type": "tree", "which": "orange", "season": "summer" },
+			{ "type": "farm_cave", "option": "fruit_bat" }
+		]
+	},
+	"peach": {
+		"name": "Peach",
+		"availability": [
+			{ "type": "tree", "which": "peach", "season": "summer" },
+			{ "type": "farm_cave", "option": "fruit_bat" }
+		]
+	},
+	"pomegranate": {
+		"name": "Pomegranate",
+		"availability": [
+			{ "type": "tree", "which": "pomegranate", "season": "fall" },
+			{ "type": "farm_cave", "option": "fruit_bat" }
+		]
+	},
+	"cherry": {
+		"name": "Cherry",
+		"availability": [
+			{ "type": "tree", "which": "cherry", "season": "spring" },
+			{ "type": "farm_cave", "option": "fruit_bat" }
+		]
+	},
+	"keg": {
+		"name": "Keg"
+	},
+	"sunfish": {
+		"name": "Sunfish",
+		"availability": [
+			{
+				"type": "fishing",
+				"where": "rivers",
+				"time": [6, 19],
+				"season": "spring"
+			},
+			{
+				"type": "fishing",
+				"where": "rivers",
+				"time": [6, 19],
+				"season": "summer",
+				"weather": "sunny"
+			},
+			{
+				"type": "map",
+				"which": "riverlands_farm",
+				"weather": "rainy"
+			},
+			{
+				"type": "map",
+				"which": "wilderness_farm",
+				"weather": "rainy"
+			}
+		]
+	},
+	"catfish": {
+		"name": "Catfish",
+		"availability": [
+			{
+				"type": "fishing",
+				"where": "rivers",
+				"season": "spring",
+				"weather": "rainy"
+			},
+			{
+				"type": "fishing",
+				"where": "rivers",
+				"season": "summer",
+				"weather": "rainy"
+			},
+			{
+				"type": "fishing",
+				"where": "secret_woods",
+				"season": "spring",
+				"weather": "rainy"
+			},
+			{
+				"type": "fishing",
+				"where": "secret_woods",
+				"season": "summer",
+				"weather": "rainy"
+			}
+		]
+	},
+	"shad": {
+		"name": "Shad",
+		"availability": [
+			{
+				"type": "fishing",
+				"where": "rivers",
+				"time": [9, 2],
+				"season": "spring",
+				"weather": "rainy"
+			},
+			{
+				"type": "fishing",
+				"where": "rivers",
+				"time": [9, 2],
+				"season": "summer",
+				"weather": "rainy"
+			},
+			{
+				"type": "fishing",
+				"where": "rivers",
+				"time": [9, 2],
+				"season": "fall",
+				"weather": "rainy"
+			}
+		]
+	},
+	"tiger_trout": {
+		"name": "Tiger Trout",
+		"availability": [
+			{
+				"type": "fishing",
+				"where": "rivers",
+				"time": [6, 19],
+				"season": "fall"
+			},
+			{
+				"type": "fishing",
+				"where": "rivers",
+				"time": [6, 19],
+				"season": "winter"
+			}
+		]
+	},
+	"bait": {
+		"name": "Bait"
+	},
+	"largemouth_bass": {
+		"name": "Largemouth Bass",
+		"availability": [
+			{
+				"type": "fishing",
+				"where": "mountain_lake",
+				"time": [6, 19]
+			}
+		]
+	},
+	"carp": {
+		"name": "Carp",
+		"availability": [
+			{
+				"type": "fishing",
+				"where": "mountain_lake"
+			},
+			{
+				"type": "fishing",
+				"where": "cindersap_forest",
+				"season": "spring"
+			},
+			{
+				"type": "fishing",
+				"where": "cindersap_forest",
+				"season": "summer"
+			},
+			{
+				"type": "fishing",
+				"where": "cindersap_forest",
+				"season": "fall"
+			},
+			{
+				"type": "fishing",
+				"where": "secret_woods"
+			},
+			{
+				"type": "fishing",
+				"where": "sewer"
+			}
+		]
+	},
+	"bullhead": {
+		"name": "Bullhead",
+		"availability": [
+			{
+				"type": "fishing",
+				"where": "mountain_lake"
+			}
+		]
+	},
+	"sturgeon": {
+		"name": "Sturgeon",
+		"availability": [
+			{
+				"type": "fishing",
+				"where": "mountain_lake",
+				"time": [6, 19],
+				"season": "summer"
+			},
+			{
+				"type": "fishing",
+				"where": "mountain_lake",
+				"time": [6, 19],
+				"season": "winter"
+			}
+		]
+	},
+	"dressed_spinner": {
+		"name": "Dressed Spinner"
+	},
+	"sardine": {
+		"name": "Sardine",
+		"availability": [
+			{
+				"type": "fishing",
+				"where": "ocean",
+				"time": [6, 19],
+				"season": "spring"
+			},
+			{
+				"type": "fishing",
+				"where": "ocean",
+				"time": [6, 19],
+				"season": "fall"
+			},
+			{
+				"type": "fishing",
+				"where": "ocean",
+				"time": [6, 19],
+				"season": "winter"
+			}
+		]
+	},
+	"tuna": {
+		"name": "Tuna",
+		"availability": [
+			{
+				"type": "fishing",
+				"where": "ocean",
+				"time": [6, 19],
+				"season": "summer"
+			},
+			{
+				"type": "fishing",
+				"where": "ocean",
+				"time": [6, 19],
+				"season": "winter"
+			}
+		]
+	},
+	"red_snapper": {
+		"name": "Red Snapper",
+		"availability": [
+			{
+				"type": "fishing",
+				"where": "ocean",
+				"time": [6, 19],
+				"season": "summer",
+				"weather": "rainy"
+			},
+			{
+				"type": "fishing",
+				"where": "ocean",
+				"time": [6, 19],
+				"season": "fall",
+				"weather": "rainy"
+			}
+		]
+	},
+	"tilapia": {
+		"name": "Tilapia",
+		"availability": [
+			{
+				"type": "fishing",
+				"where": "ocean",
+				"time": [6, 2],
+				"season": "summer"
+			},
+			{
+				"type": "fishing",
+				"where": "ocean",
+				"time": [6, 2],
+				"season": "fall"
+			}
+		]
+	},
+	"warp_totem_beach": {
+		"name": "Warp Totem: Beach"
+	},
+	"walleye": {
+		"name": "Walleye",
+		"availability": [
+			{
+				"type": "fishing",
+				"where": "rivers",
+				"time": [0, 2],
+				"season": "fall",
+				"weather": "rainy"
+			},
+			{
+				"type": "fishing",
+				"where": "lakes",
+				"time": [0, 2],
+				"season": "fall",
+				"weather": "rainy"
+			},
+			{
+				"type": "fishing",
+				"where": "forest_pond",
+				"time": [0, 2],
+				"season": "fall",
+				"weather": "rainy"
+			}
+		]
+	},
+	"bream": {
+		"name": "Bream",
+		"availability": [
+			{
+				"type": "fishing",
+				"where": "rivers",
+				"time": [18, 2]
+			}
+		]
+	},
+	"eel": {
+		"name": "Eel",
+		"availability": [
+			{
+				"type": "fishing",
+				"where": "ocean",
+				"time": [16, 2],
+				"season": "spring",
+				"weather": "rainy"
+			},
+			{
+				"type": "fishing",
+				"where": "ocean",
+				"time": [16, 2],
+				"season": "fall",
+				"weather": "rainy"
+			}
+		]
+	},
+	"small_glow_ring": {
+		"name": "Small Glow Ring"
+	},
+	"lobster": {
+		"name": "Lobster",
+		"availability": [
+			{
+				"type": "crab_pot"
+			}
+		]
+	},
+	"crayfish": {
+		"name": "Crayfish",
+		"availability": [
+			{
+				"type": "crab_pot"
+			}
+		]
+	},
+	"crab": {
+		"name": "Crab",
+		"availability": [
+			{
+				"type": "crab_pot"
+			},
+			{
+				"type": "drop",
+				"monster": "rock_crab",
+				"where": "mines"
+			},
+			{
+				"type": "drop",
+				"monster": "lava_crab",
+				"where": "mines"
+			}
+		]
+	},
+	"cockle": {
+		"name": "Cockle",
+		"availability": [
+			{
+				"type": "crab_pot"
+			},
+			{
+				"type": "foraging",
+				"where": "beach"
+			}
+		]
+	},
+	"mussel": {
+		"name": "Mussel",
+		"availability": [
+			{
+				"type": "crab_pot"
+			},
+			{
+				"type": "foraging",
+				"where": "beach"
+			}
+		]
+	},
+	"shrimp": {
+		"name": "Shrimp",
+		"availability": [
+			{
+				"type": "crab_pot"
+			}
+		]
+	},
+	"snail": {
+		"name": "Snail",
+		"availability": [
+			{
+				"type": "crab_pot"
+			}
+		]
+	},
+	"periwinkle": {
+		"name": "Periwinkle",
+		"availability": [
+			{
+				"type": "crab_pot"
+			}
+		]
+	},
+	"oyster": {
+		"name": "Oyster",
+		"availability": [
+			{
+				"type": "crab_pot"
+			},
+			{
+				"type": "foraging",
+				"where": "beach"
+			}
+		]
+	},
+	"clam": {
+		"name": "Clam",
+		"availability": [
+			{
+				"type": "crab_pot"
+			},
+			{
+				"type": "foraging",
+				"where": "beach"
+			}
+		]
+	},
+	"crab_pot": {
+		"name": "Crab Pot"
+	},
+	"pufferfish": {
+		"name": "Pufferfish",
+		"availability": [
+			{
+				"type": "fishing",
+				"where": "ocean",
+				"time": [0, 16],
+				"season": "summer",
+				"weather": "sunny"
+			}
+		]
+	},
+	"ghostfish": {
+		"name": "Ghostfish",
+		"availability": [
+			{
+				"type": "fishing",
+				"where": "mines",
+				"level": [20]
+			},
+			{
+				"type": "fishing",
+				"where": "mines",
+				"level": [60]
+			},
+			{
+				"type": "drop",
+				"monster": "ghost"
+			}
+		]
+	},
+	"sandfish": {
+		"name": "Sandfish",
+		"availability": [
+			{
+				"type": "fishing",
+				"where": "desert",
+				"time": [6, 20]
+			}
+		]
+	},
+	"woodskip": {
+		"name": "Woodskip",
+		"availability": [
+			{
+				"type": "fishing",
+				"where": "secret_woods"
+			}
+		]
+	},
+	"dish_o_the_sea": {
+		"name": "Dish o' The Sea"
+	},
+	"copper_bar": {
+		"name": "Copper Bar",
+		"availability": [
+			{
+				"type": "machine",
+				"which": "furnace",
+				"from": "copper_ore"
+			}
+		]
+	},
+	"copper_ore": {
+		"name": "Copper Ore"
+	},
+	"iron_bar": {
+		"name": "Iron Bar",
+		"availability": [
+			{
+				"type": "machine",
+				"which": "furnace",
+				"from": "iron_ore"
+			},
+			{
+				"type": "crafting",
+				"which": "transmute_fe",
+				"from": "copper_bar"
+			}
+		]
+	},
+	"iron_ore": {
+		"name": "Iron Ore"
+	},
+	"gold_bar": {
+		"name": "Gold Bar",
+		"availability": [
+			{
+				"type": "machine",
+				"which": "furnace",
+				"from": "gold_ore"
+			},
+			{
+				"type": "crafting",
+				"which": "transmute_au",
+				"from": "iron_bar"
+			}
+		]
+	},
+	"gold_ore": {
+		"name": "Gold Ore"
+	},
+	"furnace": {
+		"name": "Furnace"
+	},
+	"quartz": {
+		"name": "Quartz",
+		"availability": [
+			{
+				"type": "foraging",
+				"where": "mines"
+			}
+		]
+	},
+	"earth_crystal": {
+		"name": "Earth Crystal",
+		"availability": [
+			{
+				"type": "foraging",
+				"where": "mines",
+				"level": [1, 39]
+			},
+			{ "type": "geode" },
+			{ "type": "omni_geode" },
+			{
+				"type": "drop",
+				"monster": "duggy",
+				"where": "mines",
+				"level": [1, 29]
+			}
+		]
+	},
+	"frozen_tear": {
+		"name": "Frozen Tear",
+		"availability": [
+			{
+				"type": "foraging",
+				"where": "mines",
+				"level": [40, 79]
+			},
+			{ "type": "frozen_geode" },
+			{ "type": "omni_geode" },
+			{
+				"type": "drop",
+				"monster": "dust_sprite",
+				"where": "mines",
+				"level": [40, 80]
+			}
+		]
+	},
+	"fire_quartz": {
+		"name": "Fire Quartz",
+		"availability": [
+			{
+				"type": "foraging",
+				"where": "mines",
+				"level": [80, 120]
+			},
+			{ "type": "magma_geode" },
+			{ "type": "omni_geode" }
+		]
+	},
+	"omni_geode": {
+		"name": "Omni Geode"
+	},
+	"magma_geode": {
+		"name": "Magma Geode"
+	},
+	"slime": {
+		"name": "Slime",
+		"availability": [
+			{
+				"type": "drop",
+				"monster": "slime"
+			}
+		]
+	},
+	"bat_wing": {
+		"name": "Bat Wing",
+		"availability": [
+			{
+				"type": "drop",
+				"monster": "bat",
+				"where": "mines"
+			}
+		]
+	},
+	"solar_essence": {
+		"name": "Solar Essence",
+		"availability": [
+			{
+				"type": "drop",
+				"monster": "ghost",
+				"where": "mines"
+			},
+			{
+				"type": "drop",
+				"monster": "squid_kids",
+				"where": "mines"
+			},
+			{
+				"type": "drop",
+				"monster": "metal_heads",
+				"where": "mines"
+			},
+			{
+				"type": "drop",
+				"monster": "mummy",
+				"where": "skull_cavern"
+			}
+		]
+	},
+	"void_essence": {
+		"name": "Void Essence",
+		"availability": [
+			{
+				"type": "drop",
+				"monster": "shadow_brute",
+				"where": "mines"
+			},
+			{
+				"type": "drop",
+				"monster": "serpent",
+				"where": "skull_cavern"
+			}
+		]
+	},
+	"small_magnet_ring": {
+		"name": "Small Magnet Ring"
+	},
+	"fiddlehead_fern": {
+		"name": "Fiddlehead Fern",
+		"availability": [
+			{
+				"type": "foraging",
+				"where": "secret_woods",
+				"season": "summer"
+			}
+		]
+	},
+	"truffle": {
+		"name": "Truffle",
+		"availability": [
+			{
+				"type": "animal",
+				"which": "pig"
+			}
+		]
+	},
+	"poppy": {
+		"name": "Poppy",
+		"availability": [
+			{
+				"type": "crops",
+				"season": "summer"
+			}
+		]
+	},
+	"maki_roll": {
+		"name": "Maki Roll",
+		"availability": [
+			{
+				"type": "cooking"
+			}
+		]
+	},
+	"fried_egg": {
+		"name": "Fried Egg",
+		"availability": [
+			{
+				"type": "cooking"
+			}
+		]
+	},
+	"pink_cake": {
+		"name": "Pink Cake"
+	},
+	"sea_urchin": {
+		"name": "Sea Urchin",
+		"availability": [
+			{
+				"type": "foraging",
+				"where": "beach"
+			}
+		]
+	},
+	"sunflower": {
+		"name": "Sunflower",
+		"availability": [
+			{
+				"type": "crops",
+				"season": "summer"
+			},
+			{
+				"type": "crops",
+				"season": "fall"
+			}
+		]
+	},
+	"duck_feather": {
+		"name": "Duck Feather",
+		"availability": [
+			{
+				"type": "animal",
+				"which": "duck"
+			}
+		]
+	},
+	"aquamarine": {
+		"name": "Aquamarine",
+		"availability": [
+			{
+				"type": "aquamarine_nodes"
+			},
+			{
+				"type": "boxes",
+				"where": "mines"
+			},
+			{
+				"type": "fishing_treasure"
+			}
+		]
+	},
+	"red_cabbage": {
+		"name": "Red Cabbage",
+		"availability": [
+			{
+				"type": "crops",
+				"season": "summer"
+			}
+		]
+	},
+	"seed_maker": {
+		"name": "Seed Maker"
+	},
+	"nautilus_shell": {
+		"name": "Nautilus Shell",
+		"availability": [
+			{
+				"type": "foraging",
+				"where": "beach",
+				"season": "winter"
+			}
+		]
+	},
+	"chub": {
+		"name": "Chub",
+		"availability": [
+			{
+				"type": "fishing",
+				"where": "mountain_lake"
+			}
+		]
+	},
+	"frozen_geode": {
+		"name": "Frozen Geode",
+		"availability": [
+			{
+				"type": "mines",
+				"level": [40, 79]
+			}
+		]
+	},
+	"wheat": {
+		"name": "Wheat",
+		"availability": [
+			{
+				"type": "crops",
+				"season": "summer"
+			},
+			{
+				"type": "crops",
+				"season": "fall"
+			}
+		]
+	},
+	"hay": {
+		"name": "Hay",
+		"availability": [
+			{
+				"type": "shop",
+				"which": "marnie"
+			},
+			{
+				"type": "harvest"
+			}
+		]
+	},
+	"heater": {
+		"name": "Heater"
+	},
+	"wine": {
+		"name": "Wine",
+		"availability": [
+			{
+				"type": "machine",
+				"which": "keg"
+			}
+		]
+	},
+	"rabbits_foot": {
+		"name": "Rabbit's Foot",
+		"availability": [
+			{
+				"type": "animal",
+				"which": "rabbit"
+			},
+			{
+				"type": "drop",
+				"monster": "serpent",
+				"chance": "0.8%",
+				"where": "skull_cavern"
+			}
+		]
+	},
+	"chocolate_cake": {
+		"name": "Chocolate Cake"
+	},
+	"quality_fertilizer": {
+		"name": "Quality Fertilizer"
+	},
+	"lightning_rod": {
+		"name": "Lightning Rod"
+	},
+	"crystalarium": {
+		"name": "Crystalarium"
+	}
+}

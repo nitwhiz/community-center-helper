@@ -1,0 +1,453 @@
+{
+	"spring_foraging": {
+		"name": "Spring Foraging",
+		"options": [
+			{ "type": "item", "name": "horseradish" },
+			{ "type": "item", "name": "daffodil" },
+			{ "type": "item", "name": "leek" },
+			{ "type": "item", "name": "dandelion" }
+		],
+		"slots": 4,
+		"reward": {
+			"item": "spring_seeds",
+			"amount": 30
+		}
+	},
+	"summer_foraging": {
+		"name": "Spring Foraging",
+		"options": [
+			{ "type": "item", "name": "grape" },
+			{ "type": "item", "name": "spice_berry" },
+			{ "type": "item", "name": "sweet_pea" }
+		],
+		"slots": 3,
+		"reward": {
+			"item": "summer_seeds",
+			"amount": 30
+		}
+	},
+	"fall_foraging": {
+		"name": "Spring Foraging",
+		"options": [
+			{ "type": "item", "name": "common_mushroom" },
+			{ "type": "item", "name": "wild_plum" },
+			{ "type": "item", "name": "hazelnut" },
+			{ "type": "item", "name": "blackberry" }
+		],
+		"slots": 4,
+		"reward": {
+			"item": "fall_seeds",
+			"amount": 30
+		}
+	},
+	"winter_foraging": {
+		"name": "Winter Foraging",
+		"options": [
+			{ "type": "item", "name": "winter_root" },
+			{ "type": "item", "name": "crystal_fruit" },
+			{ "type": "item", "name": "snow_yam" },
+			{ "type": "item", "name": "crocus" }
+		],
+		"slots": 4,
+		"reward": {
+			"item": "winter_seeds",
+			"amount": 30
+		}
+	},
+	"construction": {
+		"name": "Construction",
+		"options": [
+			{ "type": "item", "name": "wood", "amount": 99 },
+			{ "type": "item", "name": "wood", "amount": 99 },
+			{ "type": "item", "name": "stone", "amount": 99 },
+			{ "type": "item", "name": "hardwood", "amount": 10 }
+		],
+		"slots": 4,
+		"reward": {
+			"item": "charcoal_kiln",
+			"amount": 1
+		}
+	},
+	"excotic_foraging": {
+		"name": "Construction",
+		"options": [
+			{ "type": "item", "name": "coconut" },
+			{ "type": "item", "name": "cactus_fruit" },
+			{ "type": "item", "name": "cave_carrot" },
+			{ "type": "item", "name": "red_mushroom" },
+			{ "type": "item", "name": "purple_mushroom" },
+			{ "type": "item", "name": "maple_syrup" },
+			{ "type": "item", "name": "oak_resin" },
+			{ "type": "item", "name": "pine_tar" },
+			{ "type": "item", "name": "morel" }
+		],
+		"slots": 5,
+		"reward": {
+			"item": "autumns_bounty",
+			"amount": 5
+		}
+	},
+	"spring_crops": {
+		"name": "Spring Crops",
+		"options": [
+			{ "type": "item", "name": "parsnip" },
+			{ "type": "item", "name": "green_bean" },
+			{ "type": "item", "name": "cauliflower" },
+			{ "type": "item", "name": "potato" }
+		],
+		"slots": 4,
+		"reward": {
+			"item": "speed_gro",
+			"amount": 20
+		}
+	},
+	"summer_crops": {
+		"name": "Summer Crops",
+		"options": [
+			{ "type": "item", "name": "tomato" },
+			{ "type": "item", "name": "hot_pepper" },
+			{ "type": "item", "name": "blueberry" },
+			{ "type": "item", "name": "melon" }
+		],
+		"slots": 4,
+		"reward": {
+			"item": "quality_sprinkler",
+			"amount": 1
+		}
+	},
+	"fall_crops": {
+		"name": "Fall Crops",
+		"options": [
+			{ "type": "item", "name": "corn" },
+			{ "type": "item", "name": "eggplant" },
+			{ "type": "item", "name": "pumpkin" },
+			{ "type": "item", "name": "yam" }
+		],
+		"slots": 4,
+		"reward": {
+			"item": "bee_house",
+			"amount": 1
+		}
+	},
+	"quality_crops": {
+		"name": "Quality Crops",
+		"options": [
+			{
+				"type": "item",
+				"name": "parsnip",
+				"amount": 5,
+				"quality": "gold"
+			},
+			{ "type": "item", "name": "melon", "amount": 5, "quality": "gold" },
+			{
+				"type": "item",
+				"name": "pumpkin",
+				"amount": 5,
+				"quality": "gold"
+			},
+			{ "type": "item", "name": "corn", "amount": 5, "quality": "gold" }
+		],
+		"slots": 3,
+		"reward": {
+			"item": "preserves_jar",
+			"amount": 1
+		}
+	},
+	"animal": {
+		"name": "Animal",
+		"options": [
+			{ "type": "item", "name": "large_milk" },
+			{ "type": "item", "name": "large_egg_brown" },
+			{ "type": "item", "name": "large_egg" },
+			{ "type": "item", "name": "large_goat_milk" },
+			{ "type": "item", "name": "wool" },
+			{ "type": "item", "name": "duck_egg" }
+		],
+		"slots": 5,
+		"reward": {
+			"item": "cheese_press",
+			"amount": 1
+		}
+	},
+	"artisan": {
+		"name": "Artisan",
+		"options": [
+			{ "type": "item", "name": "truffle_oil" },
+			{ "type": "item", "name": "cloth" },
+			{ "type": "item", "name": "goat_cheese" },
+			{ "type": "item", "name": "cheese" },
+			{ "type": "item", "name": "honey" },
+			{ "type": "item", "name": "jelly" },
+			{ "type": "item", "name": "apple" },
+			{ "type": "item", "name": "apricot" },
+			{ "type": "item", "name": "orange" },
+			{ "type": "item", "name": "peach" },
+			{ "type": "item", "name": "pomegranate" },
+			{ "type": "item", "name": "cherry" }
+		],
+		"slots": 6,
+		"reward": {
+			"item": "keg",
+			"amount": 1
+		}
+	},
+	"river_fish": {
+		"name": "River Fish",
+		"options": [
+			{ "type": "item", "name": "sunfish" },
+			{ "type": "item", "name": "catfish" },
+			{ "type": "item", "name": "shad" },
+			{ "type": "item", "name": "tiger_trout" }
+		],
+		"slots": 4,
+		"reward": {
+			"item": "bait",
+			"amount": 30
+		}
+	},
+	"lake_fish": {
+		"name": "Lake Fish",
+		"options": [
+			{ "type": "item", "name": "largemouth_bass" },
+			{ "type": "item", "name": "carp" },
+			{ "type": "item", "name": "bullhead" },
+			{ "type": "item", "name": "sturgeon" }
+		],
+		"slots": 4,
+		"reward": {
+			"item": "dressed_spinner",
+			"amount": 1
+		}
+	},
+	"ocean_fish": {
+		"name": "Ocean Fish",
+		"options": [
+			{ "type": "item", "name": "sardine" },
+			{ "type": "item", "name": "tuna" },
+			{ "type": "item", "name": "red_snapper" },
+			{ "type": "item", "name": "tilapia" }
+		],
+		"slots": 4,
+		"reward": {
+			"item": "warp_totem_beach",
+			"amount": 1
+		}
+	},
+	"night_fish": {
+		"name": "Night Fish",
+		"options": [
+			{ "type": "item", "name": "walleye" },
+			{ "type": "item", "name": "bream" },
+			{ "type": "item", "name": "eel" }
+		],
+		"slots": 3,
+		"reward": {
+			"item": "small_glow_ring",
+			"amount": 1
+		}
+	},
+	"crab_pot": {
+		"name": "Crab Pot",
+		"options": [
+			{ "type": "item", "name": "lobster" },
+			{ "type": "item", "name": "crayfish" },
+			{ "type": "item", "name": "crab" },
+			{ "type": "item", "name": "cockle" },
+			{ "type": "item", "name": "mussel" },
+			{ "type": "item", "name": "shrimp" },
+			{ "type": "item", "name": "snail" },
+			{ "type": "item", "name": "periwinkle" },
+			{ "type": "item", "name": "oyster" },
+			{ "type": "item", "name": "clam" }
+		],
+		"slots": 5,
+		"reward": {
+			"item": "crab_pot",
+			"amount": 3
+		}
+	},
+	"specialty_fish": {
+		"name": "Specialty Fish",
+		"options": [
+			{ "type": "item", "name": "pufferfish" },
+			{ "type": "item", "name": "ghostfish" },
+			{ "type": "item", "name": "sandfish" },
+			{ "type": "item", "name": "woodskip" }
+		],
+		"slots": 4,
+		"reward": {
+			"item": "dish_o_the_sea",
+			"amount": 5
+		}
+	},
+	"blacksmith": {
+		"name": "Blacksmith's",
+		"options": [
+			{ "type": "item", "name": "copper_bar" },
+			{ "type": "item", "name": "iron_bar" },
+			{ "type": "item", "name": "gold_bar" }
+		],
+		"slots": 3,
+		"reward": {
+			"item": "furnace",
+			"amount": 1
+		}
+	},
+	"geologist": {
+		"name": "Geologist's",
+		"options": [
+			{ "type": "item", "name": "quartz" },
+			{ "type": "item", "name": "earth_crystal" },
+			{ "type": "item", "name": "frozen_tear" },
+			{ "type": "item", "name": "fire_quartz" }
+		],
+		"slots": 4,
+		"reward": {
+			"item": "omni_geode",
+			"amount": 1
+		}
+	},
+	"adventurer": {
+		"name": "Aventurer's",
+		"options": [
+			{ "type": "item", "name": "slime" },
+			{ "type": "item", "name": "bat_wing" },
+			{ "type": "item", "name": "solar_essence" },
+			{ "type": "item", "name": "void_essence" }
+		],
+		"slots": 3,
+		"reward": {
+			"item": "small_magnet_ring",
+			"amount": 1
+		}
+	},
+	"chef": {
+		"name": "Aventurer's",
+		"options": [
+			{ "type": "item", "name": "maple_syrup" },
+			{ "type": "item", "name": "fiddlehead_fern" },
+			{ "type": "item", "name": "truffle" },
+			{ "type": "item", "name": "poppy" },
+			{ "type": "item", "name": "maki_roll" },
+			{ "type": "item", "name": "fried_egg" }
+		],
+		"slots": 6,
+		"reward": {
+			"item": "pink_cake",
+			"amount": 3
+		}
+	},
+	"dye": {
+		"name": "Dye",
+		"options": [
+			{ "type": "item", "name": "red_mushroom" },
+			{ "type": "item", "name": "sea_urchin" },
+			{ "type": "item", "name": "sunflower" },
+			{ "type": "item", "name": "duck_feather" },
+			{ "type": "item", "name": "aquamarine" },
+			{ "type": "item", "name": "red_cabbage" }
+		],
+		"slots": 6,
+		"reward": {
+			"item": "seed_maker",
+			"amount": 1
+		}
+	},
+	"field_research": {
+		"name": "Field Research",
+		"options": [
+			{ "type": "item", "name": "purple_mushroom" },
+			{ "type": "item", "name": "nautilus_shell" },
+			{ "type": "item", "name": "chub" },
+			{ "type": "item", "name": "frozen_geode" }
+		],
+		"slots": 4,
+		"reward": {
+			"item": "recycler",
+			"amount": 1
+		}
+	},
+	"fodder": {
+		"name": "Fodder",
+		"options": [
+			{ "type": "item", "name": "wheat", "amount": 10 },
+			{ "type": "item", "name": "hay", "amount": 10 },
+			{ "type": "item", "name": "apple", "amount": 3 }
+		],
+		"slots": 4,
+		"reward": {
+			"item": "heater",
+			"amount": 1
+		}
+	},
+	"enchanter": {
+		"name": "Enchanter's",
+		"options": [
+			{ "type": "item", "name": "oak_resin" },
+			{ "type": "item", "name": "wine" },
+			{ "type": "item", "name": "rabbits_foot" },
+			{ "type": "item", "name": "pomegranate" }
+		],
+		"slots": 4,
+		"reward": {
+			"item": "gold_bar",
+			"amount": 5
+		}
+	},
+	"vault_25": {
+		"name": "2,500",
+		"options": [
+			{
+				"type": "money",
+				"amount": "2500"
+			}
+		],
+		"slots": 1,
+		"reward": {
+			"item": "chocolate_cake",
+			"amount": 3
+		}
+	},
+	"vault_50": {
+		"name": "5,000",
+		"options": [
+			{
+				"type": "money",
+				"amount": "5000"
+			}
+		],
+		"slots": 1,
+		"reward": {
+			"item": "quality_fertilizer",
+			"amount": 30
+		}
+	},
+	"vault_100": {
+		"name": "10,000",
+		"options": [
+			{
+				"type": "money",
+				"amount": "10000"
+			}
+		],
+		"slots": 1,
+		"reward": {
+			"item": "lightning_rod",
+			"amount": 1
+		}
+	},
+	"vault_250": {
+		"name": "25,000",
+		"options": [
+			{
+				"type": "money",
+				"amount": "25000"
+			}
+		],
+		"slots": 1,
+		"reward": {
+			"item": "crystalarium",
+			"amount": 1
+		}
+	}
+}
