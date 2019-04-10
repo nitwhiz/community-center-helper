@@ -159,6 +159,15 @@ const keepAvailabilityOption = (entry: string, filter: StateFilter) => {
 		}
 
 		return true;
+	} else if ('farmMap' in filter) {
+		/**
+		 * 'none' is handled as 'Default Farm' here
+		 */
+		if (availabilityOption.type === 'map') {
+			return availabilityOption.which === filter.farmMap;
+		}
+
+		return true;
 	}
 
 	return true;
@@ -171,7 +180,8 @@ export default new Vuex.Store<RootState>({
 			filters: [
 				{ season: 'none' },
 				{ weather: 'none' },
-				{ farmCave: 'none' }
+				{ farmCave: 'none' },
+				{ farmMap: 'none' }
 			],
 			completedOptions: []
 		},
@@ -189,6 +199,9 @@ export default new Vuex.Store<RootState>({
 		},
 		setFarmCave(state, farmCave: MayBe<FarmCaveOption>) {
 			setFilter(state, 'farmCave', farmCave);
+		},
+		setFarmMap(state, farmMap: FarmMapOption) {
+			setFilter(state, 'farmMap', farmMap);
 		},
 		updateAvailable(state) {
 			/**
@@ -230,6 +243,7 @@ export default new Vuex.Store<RootState>({
 			setFilter(state, 'season', 'none');
 			setFilter(state, 'weather', 'none');
 			setFilter(state, 'farmCave', 'none');
+			setFilter(state, 'farmMap', 'none');
 
 			state.settings.completedOptions.length = 0;
 
@@ -253,6 +267,10 @@ export default new Vuex.Store<RootState>({
 		},
 		setFarmCave({ commit }, farmCave: MayBe<FarmCaveOption>) {
 			commit('setFarmCave', farmCave);
+			commit('updateAvailable');
+		},
+		setFarmMap({ commit }, farmMap: FarmMapOption) {
+			commit('setFarmMap', farmMap);
 			commit('updateAvailable');
 		},
 		reset({ commit }) {
