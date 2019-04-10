@@ -14,7 +14,7 @@
 		}
 	},
 	"summer_foraging": {
-		"name": "Spring Foraging",
+		"name": "Summer Foraging",
 		"options": [
 			{ "type": "item", "name": "grape" },
 			{ "type": "item", "name": "spice_berry" },
@@ -27,7 +27,7 @@
 		}
 	},
 	"fall_foraging": {
-		"name": "Spring Foraging",
+		"name": "Fall Foraging",
 		"options": [
 			{ "type": "item", "name": "common_mushroom" },
 			{ "type": "item", "name": "wild_plum" },
@@ -68,8 +68,8 @@
 			"amount": 1
 		}
 	},
-	"excotic_foraging": {
-		"name": "Construction",
+	"exotic_foraging": {
+		"name": "Exotic Foraging",
 		"options": [
 			{ "type": "item", "name": "coconut" },
 			{ "type": "item", "name": "cactus_fruit" },
@@ -374,7 +374,7 @@
 			{ "type": "item", "name": "hay", "amount": 10 },
 			{ "type": "item", "name": "apple", "amount": 3 }
 		],
-		"slots": 4,
+		"slots": 3,
 		"reward": {
 			"item": "heater",
 			"amount": 1

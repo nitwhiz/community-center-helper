@@ -7,7 +7,7 @@ import fs from 'fs-extra';
 import path from 'path';
 import { expect } from 'chai';
 
-/*const discoAvailProps = {};
+const discoAvailProps = {};
 
 for (const item of Object.values(items)) {
 	if (item.availability) {
@@ -16,17 +16,24 @@ for (const item of Object.values(items)) {
 
 			for (const prop of Object.entries(option)) {
 				if (prop[0] === 'type') {
+					//@ts-ignore
 					type = prop[1];
 
+					//@ts-ignore
 					if (discoAvailProps[type] === undefined) {
+						//@ts-ignore
 						discoAvailProps[type] = {};
 					}
 				} else {
+					//@ts-ignore
 					if (discoAvailProps[type][prop[0]] === undefined) {
+						//@ts-ignore
 						discoAvailProps[type][prop[0]] = [];
 					}
 
+					//@ts-ignore
 					if (!discoAvailProps[type][prop[0]].includes(prop[1])) {
+						//@ts-ignore
 						discoAvailProps[type][prop[0]].push(prop[1]);
 					}
 				}
@@ -35,7 +42,9 @@ for (const item of Object.values(items)) {
 	}
 }
 
-console.log('availability properties:', discoAvailProps);*/
+// console.log('availability properties:', discoAvailProps);
+
+fs.writeJSONSync('./props.json', discoAvailProps);
 
 describe('items', () => {
 	it('all have names', () => {

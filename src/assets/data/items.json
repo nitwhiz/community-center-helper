@@ -7,7 +7,7 @@
 		"name": "Daffodil",
 		"availability": [
 			{ "type": "foraging", "season": "spring" },
-			{ "type": "shop", "which": "pierre_flower_dance" }
+			{ "type": "shop", "where": "pierre_flower_dance" }
 		]
 	},
 	"leek": {
@@ -15,10 +15,10 @@
 		"availability": [{ "type": "foraging", "season": "spring" }]
 	},
 	"dandelion": {
-		"name": "Leek",
+		"name": "Dandelion",
 		"availability": [
 			{ "type": "foraging", "season": "spring" },
-			{ "type": "shop", "which": "pierre_flower_dance" }
+			{ "type": "shop", "where": "pierre_flower_dance" }
 		]
 	},
 	"spring_seeds": {
@@ -196,7 +196,7 @@
 		"name": "Morel",
 		"availability": [
 			{ "type": "foraging", "where": "secret_woods" },
-			{ "type": "map", "where": "forest_farm", "season": "spring" },
+			{ "type": "map", "which": "forest_farm", "season": "spring" },
 			{ "type": "farm_cave", "option": "mushroom" }
 		]
 	},
@@ -257,7 +257,7 @@
 		"availability": [{ "type": "crops", "season": "fall" }]
 	},
 	"yam": {
-		"name": "yam",
+		"name": "Yam",
 		"availability": [{ "type": "crops", "season": "fall" }]
 	},
 	"bee_house": {
