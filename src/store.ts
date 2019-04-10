@@ -239,6 +239,10 @@ export default new Vuex.Store<RootState>({
 		}
 	},
 	actions: {
+		init({ commit }) {
+			commit('setAllAvailable');
+			commit('updateAvailable');
+		},
 		setSeason({ commit }, season: MayBe<Season>) {
 			commit('setSeason', season);
 			commit('updateAvailable');
