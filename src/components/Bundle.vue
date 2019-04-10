@@ -15,6 +15,7 @@
 		 class="reward"
 		>
 			<div class="bullet">Reward:</div>
+			<div class="amount">{{ bundle.reward.amount }}&times;</div>
 			<div class="image">
 				<img
 				 :src="rewardImage"
@@ -22,7 +23,7 @@
 				>
 			</div>
 			<div class="type">
-				{{ bundle.reward.amount }}&times;&nbsp;{{ rewardItemName }}
+				{{ rewardItemName }}
 			</div>
 		</div>
 		<div
