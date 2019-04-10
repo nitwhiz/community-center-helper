@@ -58,8 +58,6 @@ export default class Bundle extends Vue {
 	closed = false;
 
 	get bundleImage() {
-		console.log(this.bundleDotPath);
-
 		return require(`@/assets/img/${this.bundleDotPath
 			.split('.')
 			.pop()}_bundle.png`);
