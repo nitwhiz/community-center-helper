@@ -1,18 +1,18 @@
 <template>
 	<div class="settings">
 		<div class="option">
-			<div class="name">Season</div>
+			<div class="name">Farm Map</div>
 			<div class="control">
 				<select
-				 name="season"
-				 v-model="season"
-				 @change="seasonChanged"
+				 name="farmmap"
+				 v-model="farmMap"
+				 @change="farmMapChanged"
 				>
-					<option value="none">None</option>
-					<option value="spring">Spring</option>
-					<option value="summer">Summer</option>
-					<option value="fall">Fall</option>
-					<option value="winter">Winter</option>
+					<option value="none">Default</option>
+					<option value="forest_farm">Forest</option>
+					<option value="riverlands_farm">Riverlands</option>
+					<option value="wilderness_farm">Wilderness</option>
+					<option value="hilltop_farm">Hill-Top</option>
 				</select>
 			</div>
 		</div>
@@ -27,6 +27,22 @@
 					<option value="none">None</option>
 					<option value="mushroom">Mushroom</option>
 					<option value="fruit_bat">Fruit Bat</option>
+				</select>
+			</div>
+		</div>
+		<div class="option">
+			<div class="name">Season</div>
+			<div class="control">
+				<select
+				 name="season"
+				 v-model="season"
+				 @change="seasonChanged"
+				>
+					<option value="none">None</option>
+					<option value="spring">Spring</option>
+					<option value="summer">Summer</option>
+					<option value="fall">Fall</option>
+					<option value="winter">Winter</option>
 				</select>
 			</div>
 		</div>
@@ -55,6 +71,7 @@ export default class Settings extends Vue {
 	season = this.currentSeason;
 	weather = this.currentWeather;
 	farmCave = this.currentFarmCave;
+	farmMap = this.currentFarmMap;
 
 	get currentSeason() {
 		//@ts-ignore
@@ -77,6 +94,13 @@ export default class Settings extends Vue {
 		)[0].farmCave;
 	}
 
+	get currentFarmMap() {
+		//@ts-ignore
+		return this.$store.state.settings.filters.filter(filter =>
+			Boolean(filter.farmMap)
+		)[0].farmMap;
+	}
+
 	seasonChanged() {
 		this.$store.dispatch('setSeason', this.season);
 	}
@@ -87,6 +111,10 @@ export default class Settings extends Vue {
 
 	farmCaveChanged() {
 		this.$store.dispatch('setFarmCave', this.farmCave);
+	}
+
+	farmMapChanged() {
+		this.$store.dispatch('setFarmMap', this.farmMap);
 	}
 }
 </script>

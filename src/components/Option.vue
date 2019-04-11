@@ -19,6 +19,15 @@
 				 :src="image"
 				 :alt="imageAlt"
 				>
+				<div
+				 class="quality-star"
+				 v-if="isGoldQualityItem"
+				>
+					<img
+					 :src="require('@/assets/img/gold_quality_icon.png')"
+					 alt="gold quality"
+					>
+				</div>
 			</div>
 			<div class="name">
 				<div v-if="isItem">
@@ -65,6 +74,14 @@ export default class Option extends Vue {
 		} else {
 			this.$store.commit('unsetOptionCompleted', this.optionDotPath);
 		}
+	}
+
+	get isGoldQualityItem() {
+		return (
+			this.isItem &&
+			'quality' in this.option &&
+			this.option.quality === 'gold'
+		);
 	}
 
 	get isVisible() {
@@ -134,5 +151,25 @@ export default class Option extends Vue {
 	background-color: rgba(255, 255, 255, 0.5);
 	border-radius: 6px;
 	border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+}
+
+.image {
+	position: relative;
+	overflow: hidden;
+}
+
+.image .quality-star {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+.image .quality-star img {
+	position: absolute;
+	bottom: 0;
+	left: calc(100% - 12px);
 }
 </style>
