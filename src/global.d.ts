@@ -184,8 +184,6 @@ declare global {
 
 	type TravellingCart = TravellingCartEntry[];
 
-	type FilterKeys = 'season' | 'weather';
-
 	type MayBe<T> = T | 'none';
 
 	type FilterSeason = {
@@ -200,12 +198,28 @@ declare global {
 		farmCave: MayBe<FarmCaveOption>;
 	};
 
-	type StateFilter = FilterSeason | FilterWeather | FilterFarmCave;
+	type FarmMapOption =
+		| 'none'
+		| 'forest_farm'
+		| 'riverlands_farm'
+		| 'wilderness_farm'
+		| 'hilltop_farm';
+
+	type FilterFarmMap = {
+		farmMap: FarmMapOption;
+	};
+
+	type StateFilter =
+		| FilterSeason
+		| FilterWeather
+		| FilterFarmCave
+		| FilterFarmMap;
 
 	type StateFilterMap = {
 		season: FilterSeason;
 		weather: FilterWeather;
 		farmCave: FilterFarmCave;
+		farmMap: FilterFarmMap;
 	};
 
 	type RootState = {

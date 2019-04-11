@@ -306,7 +306,7 @@
 		"name": "Oil Maker"
 	},
 	"cloth": {
-		"name": "Truffle Oil",
+		"name": "Cloth",
 		"availability": [
 			{ "type": "machine", "which": "loom", "from": "truffle" },
 			{

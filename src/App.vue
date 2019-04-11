@@ -37,9 +37,7 @@ import TravellingCart from '@/assets/data/travelling_cart.json';
 })
 export default class App extends Vue {
 	mounted() {
-		this.$store.commit('setAllAvailable');
-
-		// this.$store.commit('setSeason', 'summer');
+		this.$store.dispatch('init');
 	}
 
 	get allRooms() {

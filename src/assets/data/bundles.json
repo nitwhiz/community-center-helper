@@ -308,21 +308,21 @@
 		}
 	},
 	"adventurer": {
-		"name": "Aventurer's",
+		"name": "Adventurer's",
 		"options": [
 			{ "type": "item", "name": "slime" },
 			{ "type": "item", "name": "bat_wing" },
 			{ "type": "item", "name": "solar_essence" },
 			{ "type": "item", "name": "void_essence" }
 		],
-		"slots": 3,
+		"slots": 2,
 		"reward": {
 			"item": "small_magnet_ring",
 			"amount": 1
 		}
 	},
 	"chef": {
-		"name": "Aventurer's",
+		"name": "Chef's",
 		"options": [
 			{ "type": "item", "name": "maple_syrup" },
 			{ "type": "item", "name": "fiddlehead_fern" },

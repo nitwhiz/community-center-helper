@@ -1,6 +1,6 @@
 <template>
 	<div :class="['room', roomDotPath]">
-		<h1>{{ isDone }}&nbsp;{{ room.name }}</h1>
+		<h1><span class="done">{{ isDone }}</span>&nbsp;{{ room.name }}</h1>
 		<div class="reward">Reward: {{ room.reward }}</div>
 		<div class="bundles">
 			<Bundle
@@ -28,8 +28,18 @@ export default class Room extends Vue {
 	@Prop({ required: true }) roomDotPath!: string;
 	@Prop({ required: true }) room!: IRoom;
 
+	get bundleCount() {
+		return this.room.bundles.length;
+	}
+
+	get bundlesDone() {
+		return (this.$store.state.settings.completedOptions as string[]).filter(
+			option => Boolean(option.match(new RegExp(this.roomDotPath)))
+		).length;
+	}
+
 	get isDone() {
-		return false ? '✔️' : '❌';
+		return this.bundlesDone >= this.bundleCount ? '✔️' : '❌';
 	}
 
 	getBundle(identifier: BundleIdentifier) {
@@ -50,6 +60,10 @@ export default class Room extends Vue {
 
 .room h1 {
 	text-align: center;
+}
+
+.room h1 span.done {
+	line-height: 20px;
 }
 
 .room.bulletin {
